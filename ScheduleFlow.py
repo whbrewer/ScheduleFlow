@@ -10,8 +10,8 @@
 import logging
 import os
 import numpy as np
-import _intScheduleFlow
-from _intScheduleFlow import JobChangeType
+from . import _intScheduleFlow
+from ._intScheduleFlow import JobChangeType
 from enum import IntEnum
 
 
